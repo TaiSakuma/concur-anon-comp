@@ -1,3 +1,6 @@
 [submodule "alphatwirl"]
 	path = alphatwirl
 	url = https://github.com/alphatwirl/alphatwirl.git
+[submodule "fwtwirl"]
+	path = fwtwirl
+	url = https://github.com/TaiSakuma/fwtwirl.git
