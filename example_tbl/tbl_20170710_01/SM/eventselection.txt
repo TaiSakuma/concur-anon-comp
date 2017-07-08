@@ -1,0 +1,10 @@
+{'All': ('ev : ev.cutflowId[0] == 1 # Signal',
+         'ev : ev.nIsoTracksVeto[0] <= 0',
+         'ev : ev.nJet40Fwd[0] == 0',
+         'ev : ev.nJet40failedId[0] == 0',
+         'ev : ev.nJet40[0] >= 2',
+         'ev : -2.5 < ev.jet_eta[0] < 2.5',
+         'ev : 0.1 <= ev.jet_chHEF[0] < 0.95',
+         'ev : ev.ht40[0] >= 400',
+         'ev : ev.mht40_pt[0] >= 200',
+         'ev : ev.MhtOverMet[0] < 1.25')}
