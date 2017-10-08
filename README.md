@@ -1,6 +1,10 @@
 # concur-anon-comp
 An example analysis code with alphatwirl and data frames
 
+ - [tbl_roc.py](https://github.com/TaiSakuma/xi-roc-cafe/blob/master/tbl_roc.py) in [xi-roc-cafe](https://github.com/taisakuma/xi-roc-cafe) analyzes a small number of data frames, highlighting data frame operations - data frame file names are hard-coded
+ - concur-anon-comp is an example of how to analyze a large number of data frames. here, the scripts don’t know the input file names. instead they find relevant input files by the file name conventions, analyze a large number of data frames in parallel.
+ - In order to highlight the above point, concur-anon-comp includes only a few data frame operations, combining components into processes and summing over categorical variables
+
 ## quick instructions
 
 ### check out
