@@ -25,7 +25,7 @@ heppy_topdir = os.path.join(os.path.sep, 'hdfs', 'SUSY', 'RA1')
 # heppy_topdir = os.path.join(os.path.sep, 'Users' ,'sakuma', 'work', 'cms', 'c150130_RA1_data')
 
 ##__________________________________________________________________||
-tbl_topdir = os.path.join('.', 'tbl_20170710_01')
+tbl_topdir = os.path.join('.', 'tbl_20180122_01')
 
 ##__________________________________________________________________||
 lumi = 35900 # [pb-1]

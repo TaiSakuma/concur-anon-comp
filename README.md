@@ -70,22 +70,22 @@ aggregate_categories_SM
 
 The output of the above optional cmmand is stored in this repo. So if you skip the above command, you can copy the result
 ```bash
-cp -r concur-anon-comp/example_tbl/tbl_20170710_01 . # (alternative to the above command)
+cp -r concur-anon-comp/example_tbl/tbl_20180122_01 . # (alternative to the above command)
 ```
 
-You should look at the files in the dir `tbl_20170710_01/SM/`.
+You should look at the files in the dir `tbl_20180122_01/SM/`.
 
 Combine components into processes:
 ```bash
 ./concur-anon-comp/yield/print_commands_heppy.py combine_tables_into_process_SM | sh -x
 ```
 
-You should look at the files in the dir `ls tbl_20170710_01/SM/` again and understand what happened.
+You should look at the files in the dir `ls tbl_20180122_01/SM/` again and understand what happened.
 
 Aggregate categoreis:
 ```bash
 ./concur-anon-comp/yield/print_commands_heppy.py aggregate_categories_SM | sh -x
 ```
-Again look at `tbl_20170710_01/SM/` and understand what happened.
+Again look at `tbl_20180122_01/SM/` and understand what happened.
 
 
