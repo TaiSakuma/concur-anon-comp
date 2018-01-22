@@ -9,9 +9,11 @@ import pprint
 ##__________________________________________________________________||
 scripts_subdir = os.path.dirname(__file__)
 scripts_dir = os.path.dirname(scripts_subdir)
-alphatwirl_path = os.path.join(scripts_dir, 'alphatwirl')
+external_dir = os.path.join(scripts_dir, 'external')
 sys.path.insert(1, scripts_dir)
-sys.path.insert(1, alphatwirl_path)
+sys.path.insert(1, external_dir)
+sys.path.insert(1, os.path.join(external_dir, 'alphatwirl'))
+sys.path.insert(1, os.path.join(external_dir, 'scribblers'))
 
 ##__________________________________________________________________||
 import alphatwirl
